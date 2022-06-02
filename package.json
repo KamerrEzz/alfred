@@ -1,0 +1,20 @@
+{
+  "name": "jsdocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "jsdoc -c jsdoc.json",
+    "deploy": "gh-pages -d docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "3.6.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://kamerrezz.github.io/alfred/"
+}
